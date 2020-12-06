@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CCS Ku */
+
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(background.jpg);
+    color: #333333;
+}
+
+.container{
+    width: auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header .judul{
+    font-size: 40px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.header a:hover{
+    background-color: lightskyblue;
+    color: #ffffff;
+}
+
+.heroimg{
+    height: 250px;
+    background-image: url(kopilaptop.png);
+    background-size: 100%;
+    background-size: cover;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid lightskyblue;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a{
+    text-decoration: none;
+    color: salmon;
+}
+
+.content p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #333333;
+    padding: 20px;
+}
+
+.footer .copy{
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: salmon;
+}
